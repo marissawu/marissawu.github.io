@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/calendar.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono" rel="stylesheet">
+		<link href='assets/fullcalendar/core/main.css' rel='stylesheet'>
+    	<link href='assets/fullcalendar/daygrid/main.css' rel='stylesheet'>
+    	<link href="assets/fullcalendar/list/main.css" rel="stylesheet">
+
+    	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	    <script src='assets/fullcalendar/core/main.js'></script>
+	    <script src='assets/fullcalendar/daygrid/main.js'></script>
+	    <script src='assets/fullcalendar/list/main.js'></script>
+	    <script src='assets/fullcalendar/google-calendar/main.js'></script>
+
+	    <script>
+		   	document.addEventListener('DOMContentLoaded', function() {
+	        var calendarEl = document.getElementById('calendar');
+
+	        var calendar = new FullCalendar.Calendar(calendarEl, {
+	          plugins: [ 'dayGrid', 'list', 'googleCalendar' ]
+	        });
+
+	        calendar.render();
+	      });
+	    </script>
+
+		
+	</head>
+	<body>
+
+		<header>
+			<img src="assets/img/icons/squarelogoSITE.png">
+			<div id="navbar"> 
+					<a class="links" href="home.html">Home</a>
+					<a class="links" href="mission.html">Mission</a>
+					<a class="links" href="team.html">Our Team</a>
+					<a class="links" href="calendar.html">Calendar</a>
+					<a class="links" href="contact.html">Contact</a>
+				<div class="social">
+					<img src="assets/img/icons/fb.png"><img src="assets/img/icons/email.png">
+				</div>
+			</div>
+		</header>
+
+		<div id='calendar'></div>
+
+		<footer>
+			<div id=foot>The Student Immigration Relief Clinic. © 2019. All rights reserved. Site created by Marissa Wu.</div>
+		</footer>
+
+	</body>
+</html>
