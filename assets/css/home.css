@@ -56,8 +56,9 @@ header img { /*logo*/
 	position: absolute;
 	top: 140px;
 	left: 0;
-	height: 683px;
+	/*height: 683px;*/
 	/*width: 1440px;*/
+	height: 90%;
 	width: 100%;
 	overflow: hidden;
 }
@@ -80,6 +81,7 @@ header img { /*logo*/
 .slide img {
 	/*width: 1440px;*/
 	width: 100%;
+	height: auto;
 }
 
 

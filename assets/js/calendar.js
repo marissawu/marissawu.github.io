@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // THIS KEY WON'T WORK IN PRODUCTION!!!
     // To make your own Google API key, follow the directions here:
     // http://fullcalendar.io/docs/google_calendar/
-    googleCalendarApiKey: 'AIzaSyDcnW6WejpTOCffshGDDb4neIrXVUA1EAE',
+    googleCalendarApiKey: 'AIzaSyAKtkwSkVlqy2IwKfMsYeS8QqQzYPELLH8',
 
     // US Holidays
-    events: 'en.usa#holiday@group.v.calendar.google.com',
+    events: 'berkeley.edu_h7mqbiqhrp84p1kgrqitbs2pjo@group.calendar.google.com',
 
     eventClick: function(arg) {
 
