@@ -73,16 +73,18 @@ header img { /*logo*/
 .slide {
 	/*max-width: 1440px;*/
 	position: relative;
+	/*display: flex;*/
 	height: 683px;
 	width: 1440px;
 	/*width: 100%;*/
 }
 
-.slide img {
-	/*width: 1440px;*/
+
+/*.slide img {
+	width: 1440px;
 	width: 100%;
 	height: auto;
-}
+}*/
 
 
 #left, #right {
@@ -111,3 +113,12 @@ header img { /*logo*/
 	width = 100%;
 	height = auto;
 }
+
+@media (max-width: 1440px){
+	.slide img.resize {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+
